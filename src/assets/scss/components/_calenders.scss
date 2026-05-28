@@ -1,0 +1,12 @@
+.calender-view{
+    min-height: 600px;
+    height: 600px;
+    .rbc-event,
+    .rbc-day-slot .rbc-background-event{
+        background-color: #5600ff;
+        font-size: 12px;
+    }
+    .weekend-bg {
+        background-color: #ffb0a64d !important; 
+    }
+}

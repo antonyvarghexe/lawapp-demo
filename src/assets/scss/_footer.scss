@@ -1,0 +1,19 @@
+.footer{
+
+    .copyright{
+        p{
+            font-size: 12px;
+        }
+    }
+}
+
+#main-wrapper{
+    &.menu-toggle{
+        footer{
+            padding-left: 0;
+            @media (max-width: 767px){
+                padding-left: 3.75rem;
+            }
+        }
+    }
+}

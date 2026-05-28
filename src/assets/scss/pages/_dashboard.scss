@@ -1,0 +1,48 @@
+.active-cases-overview{
+    .card{
+        &.border{
+             border-width: 8px 0px 0px 0px !important;
+             border-radius: 0 !important;
+              
+        }
+
+        .stat-digit{
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 1em;
+        }
+        .view-btn{
+            font-size: 12px;
+            padding: 4px 15px;
+            border-radius: 20px;
+        }
+    }
+}
+
+.hearings-and-notes{
+    .card{
+        border-width: 8px 0px 0px 0px;
+        border-radius: 0px;
+    }
+    .hearing-card{
+        .btn-action{
+            font-size: 12px !important;
+        }
+    }
+    .note-entry{
+        border-color: #000000 !important;
+    }
+    .act-btns{
+        min-width: 200px;
+    }
+    .table tbody tr td{
+        white-space: nowrap;
+    }
+}
+.deadlines-and-activity{
+    .card{
+        border-width: 8px 0px 0px 0px;
+        border-radius: 0px;
+    }
+}

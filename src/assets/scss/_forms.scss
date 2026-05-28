@@ -1,0 +1,48 @@
+.btn{
+    &-primary{
+        background-color: #000000;
+        border-color: #000000;
+        &:hover,
+        &:focus,
+        &:active,
+        &:focus-visible{
+            background-color: #292929 !important; 
+            border-color: #292929 !important;
+        }
+        &:disabled{
+            background-color: #000000;
+            opacity: 0.3;
+        }
+    }
+
+    &-outline{
+        &-primary{
+            border-color: #000000;
+            color: #000000 !important;
+            &:hover,
+            &:focus,
+            &:active,
+            &:focus-visible{
+                color: #ffffff !important;
+                background-color: #292929 !important; 
+                border-color: #292929 !important;
+            }
+        }
+    }
+}
+
+.form-control{
+   &:focus{
+    color: #000000;
+    border-color: #000000;
+   } 
+}
+
+.select{
+    &__control{
+       &--is-focused{
+         border-color: #000000 !important;
+         box-shadow: 0 0 0 1px #000000 !important;
+       }
+    }
+}
